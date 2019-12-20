@@ -22,10 +22,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: 'about/' },
-      { text: 'Product', link: 'product/' },
-      { text: 'Posts', link: 'posts/' },
-      { text: 'Contact', link: 'contact/' },
+      { text: 'About', link: '/about/' },
+      { text: 'Product', link: '/product/' },
+      { text: 'Posts', link: '/posts/' },
+      { text: 'Contact', link: '/contact/' },
     ],
     displayAllHeaders: true,
     sidebar: 'auto'
