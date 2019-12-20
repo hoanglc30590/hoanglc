@@ -14,18 +14,20 @@ module.exports  =  {
     }
   }
 },
-module.exports  =  {
+module.exports = {
+  base: '/hoanglc/',
+  title: 'VuePress Blog Demo',
+  description: 'A simple blog built with VuePress',
+  dest: 'docs',
   themeConfig: {
-    sidebar: 'auto',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/about/' },
-      { text: 'Product', link: '/product/' },
-      { text: 'Posts', link: '/posts/' },
-      { text: 'Contact', link: '/contact/' },
+      { text: 'About', link: 'about/' },
+      { text: 'Product', link: 'product/' },
+      { text: 'Posts', link: 'posts/' },
+      { text: 'Contact', link: 'contact/' },
     ],
+    displayAllHeaders: true,
+    sidebar: 'auto'
   }
-},
-module.exports  =  {
-  dest: 'docs'
 }
